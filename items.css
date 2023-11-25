@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(to bottom right, yellow, rgb(255, 0, 179));
+    min-height: 50px;
+    margin-bottom: 30px;
+}
+.items-section{
+    display: grid;
+    max-width: 100vw;
+    min-height: 100vh;
+    grid-template-columns: 16% 16% 16% 16% 16%;
+    column-gap: 5%;
+}
+.item-child{
+    background-color: blueviolet;
+    box-shadow: 0 0 20px red;
+    height: 200px;
+    margin-bottom: 50px;
+}
