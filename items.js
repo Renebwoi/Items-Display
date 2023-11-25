@@ -1,4 +1,4 @@
-import output from "Storyset/storyset.js";
+import output from "/Storyset/storyset.js";
 console.log(output);
 
 let OutputString = JSON.parse(localStorage.getItem("storyDetails"));
